@@ -1,0 +1,41 @@
+{
+  "embedder": "minilm",
+  "n_resumes": 300,
+  "n_jobs": 40,
+  "seed": 11,
+  "ranking": {
+    "random": {
+      "ndcg10": 0.174,
+      "p5": 0.085,
+      "mrr": 0.2361
+    },
+    "skills_only": {
+      "ndcg10": 0.9114,
+      "p5": 0.915,
+      "mrr": 0.9875
+    },
+    "semantic_only": {
+      "ndcg10": 0.9206,
+      "p5": 0.91,
+      "mrr": 0.9331
+    },
+    "hybrid": {
+      "ndcg10": 0.9936,
+      "p5": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "skill_extraction": {
+    "precision": 0.9496,
+    "recall": 1.0,
+    "f1": 0.9741
+  },
+  "years_mae": 0.1,
+  "latency_ms": {
+    "pdf_parse_per_resume_mean": 23.96,
+    "embed_per_resume_mean": 338.47,
+    "score_all_resumes_per_job_mean": 33.654
+  },
+  "pdf_render_s": 1.36,
+  "finished_at": "2026-11-02T17:43:16"
+}

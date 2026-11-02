@@ -1,0 +1,32 @@
+{
+  "health": {
+    "n": 50,
+    "p50_ms": 3.8,
+    "p95_ms": 4.4,
+    "mean_ms": 3.8
+  },
+  "ranked_candidates_top20_all_pool": {
+    "n": 50,
+    "p50_ms": 63.3,
+    "p95_ms": 77.6,
+    "mean_ms": 70.6
+  },
+  "job_recommendations_top10": {
+    "n": 50,
+    "p50_ms": 35.0,
+    "p95_ms": 47.5,
+    "mean_ms": 37.1
+  },
+  "explain_one_candidate": {
+    "n": 50,
+    "p50_ms": 351.9,
+    "p95_ms": 1429.7,
+    "mean_ms": 486.3
+  },
+  "upload_to_done_via_worker": {
+    "n": 10,
+    "p50_ms": 715.9,
+    "p95_ms": 1154.2,
+    "mean_ms": 784.7
+  }
+}
