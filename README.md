@@ -8,9 +8,6 @@ Explainable resume ↔ job matching: PDF parsing, pgvector semantic search, and 
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![CI](https://github.com/Alkarim786/ai-job-resume-matcher/actions/workflows/ci.yml/badge.svg)](https://github.com/Alkarim786/ai-job-resume-matcher/actions/workflows/ci.yml)
-
-*Project 23 of Karim's 30 Days, 30 Projects series.*
-
 ## Problem
 
 Keyword filters miss good candidates ("built REST services" vs "API development") and black-box ML rankers can't justify a decision. This project combines embeddings (meaning) with a transparent skill/experience/title model, and returns the evidence: matched skills, missing must-haves, and the resume sentence that best supports each job requirement.
